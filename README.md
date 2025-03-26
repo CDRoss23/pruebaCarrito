@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Recursos necesarios:
+Node.js v.22 
+Visual Studio Code o el IDE de tu elección
 
-## Getting Started
+# Preparación:  
+Para instalar Node.js debes de acceder al siguiente enlace:
+https://nodejs.org/en/download
+Podemos seguir los pasos para instalarlo mediante la terminal (lo abrimos win + r cmd) o podemos usar el instalador .msi en caso que nos sintamos más cómodos.
+Abrimos el directorio donde hemos ubicado la aplicación carrito, abrimos la terminal desde esa carpeta y escribimos code para abrir el IDE para acceder al código.
+Usamos el comando ctrl + j para abrir la terminal del IDE e ingresamos 
+npm install
 
-First, run the development server:
+# Correr página web:
+Usamos el comando:
+ npm run start
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Funcionamiento
+Usuario puede seleccionar un ítem y agregarlo al carrito con el botón “agregar”, a su vez puede escoger la cantidad en el input de la izquierda.
+En el navbar, en la esquina superior derecha podemos acceder al carrito, donde se muestra un resumen de la compra, podemos agregar o disminuir la cantidad de productos y además podemos pagar o limpiar el carrito por completo.
+Al darle el botón de Pagar, se muestra una alerta de compra satisfactoria. Luego podemos acceder al historial. 
+En el historial se puede visualizar un resumen de las compras que hemos hecho, pudiendo regresar tanto a la pantalla principal como al carrito
