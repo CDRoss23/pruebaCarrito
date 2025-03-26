@@ -19,3 +19,7 @@ Usuario puede seleccionar un ítem y agregarlo al carrito con el botón “agreg
 En el navbar, en la esquina superior derecha podemos acceder al carrito, donde se muestra un resumen de la compra, podemos agregar o disminuir la cantidad de productos y además podemos pagar o limpiar el carrito por completo.
 Al darle el botón de Pagar, se muestra una alerta de compra satisfactoria. Luego podemos acceder al historial. 
 En el historial se puede visualizar un resumen de las compras que hemos hecho, pudiendo regresar tanto a la pantalla principal como al carrito
+
+# Acceso rápido
+
+https://rossman-cabrear-prueba.vercel.app/
