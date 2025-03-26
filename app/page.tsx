@@ -89,7 +89,7 @@ export default function Home() {
       <Navbar />
       <div className="container mx-auto px-4 py-8">
         <h2 className="text-center font-bold text-4xl md:text-6xl mb-8 text-gray-800">
-          <ShoppingCart className="inline-block mr-4 text-blue-600" />
+          <ShoppingCart className="inline-block mr-4 text-green-800" />
           La Tiendona
         </h2>
         
@@ -126,7 +126,7 @@ export default function Home() {
                     }}
                     />
                   <button 
-                    className="flex-1 bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition-colors flex items-center justify-center"
+                    className="flex-1 bg-green-800 text-white py-2 rounded-md hover:bg-green-900 transition-colors flex items-center justify-center"
                     onClick={() => handleAddToCart(product)}
                   >
                     Agregar

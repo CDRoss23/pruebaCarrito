@@ -43,7 +43,7 @@ export default function CarritoCompras() {
 
     return(
         <div className="container mx-auto px-4 py-8">
-            <div className="flex justify-between items-center w-full bg-blue-800 p-4 text-blue-800">
+            <div className="flex justify-between items-center w-full bg-green-800 p-4 text-green-800">
                 <Link 
                     href="/" 
                     className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-md hover:bg-blue-100 transition-colors duration-200 "
@@ -59,7 +59,7 @@ export default function CarritoCompras() {
             </div>
 
             <h2 className="text-3xl font-bold mb-6 flex items-center">
-                <ShoppingCart className="mr-3 text-blue-600" /> Carrito de Compras
+                <ShoppingCart className="mr-3 text-green-600" /> Carrito de Compras
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6">
@@ -130,7 +130,7 @@ export default function CarritoCompras() {
                             </div>
                             <div className="space-y-2">
                                 <button 
-                                    className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors disabled:bg-gray-400"
+                                    className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition-colors disabled:bg-gray-400"
                                     onClick={handlePagar}
                                     disabled={items.length === 0}
                                 >

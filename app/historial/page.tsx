@@ -45,14 +45,14 @@ const PurchaseHistoryPage: React.FC = () => {
                 <div className="bg-white shadow-xl rounded-lg overflow-hidden">
                     <div className="bg-gray-100 px-6 py-4 border-b border-gray-200 flex items-center justify-between">
                         <div className="flex items-center">
-                            <FileText className="w-8 h-8 text-blue-600 mr-3" />
+                            <FileText className="w-8 h-8 text-green-800 mr-3" />
                             <h1 className="text-2xl font-bold text-gray-800">
                                 Historial de Compras
                             </h1>
                         </div>
                         <Link 
                             href="/carrito" 
-                            className="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+                            className="flex items-center text-green-800 hover:textgreen-900 transition-colors"
                         >
                             <ShoppingCart className="w-6 h-6 mr-2" />
                             Ir al Carrito
@@ -67,7 +67,7 @@ const PurchaseHistoryPage: React.FC = () => {
                             </p>
                             <Link 
                                 href="/" 
-                                className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors"
+                                className="mt-4 inline-block bg-green-800 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors"
                             >
                                 Ir a Productos
                             </Link>
