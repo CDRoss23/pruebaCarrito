@@ -43,16 +43,16 @@ export default function CarritoCompras() {
 
     return(
         <div className="container mx-auto px-4 py-8">
-            <div className="flex justify-between items-center mb-6">
+            <div className="flex justify-between items-center w-full bg-blue-800 p-4 text-blue-800">
                 <Link 
                     href="/" 
-                    className="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+                    className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-md hover:bg-blue-100 transition-colors duration-200 "
                 >
                     <ShoppingCart className="mr-2" /> Volver a la tienda
                 </Link>
                 <Link 
                     href="/historial" 
-                    className="text-blue-600 hover:text-blue-800 transition-colors"
+                    className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-md hover:bg-blue-100 transition-colors duration-200 "
                 >
                     Historial de Compras
                 </Link>
